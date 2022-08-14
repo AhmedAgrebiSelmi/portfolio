@@ -15,8 +15,6 @@ function App() {
         <Route path='/projects' component={Projects}  />
         <Route path='/skills' component={Skills}  />
         <Route exact path='/' component={Home}  />
-        <h1>Hello</h1>
-        <button className="btn btn-success">OK</button>
       </BrowserRouter>
     </div>
   );
