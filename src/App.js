@@ -8,15 +8,17 @@ import Home from './pages/Home';
 
 function App() {
   return (
-    <div>
+
       <BrowserRouter>
         <Navbar />
+        <div className='container'>
         <Route path='/contact' component={Contact}  />
         <Route path='/projects' component={Projects}  />
         <Route path='/skills' component={Skills}  />
         <Route exact path='/' component={Home}  />
+        </div>
       </BrowserRouter>
-    </div>
+
   );
 }
 
